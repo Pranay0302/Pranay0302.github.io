@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #55595c;
+    text-align: left;
+    background-color: white;
+}
+
+#noice {
+    text-align: center;
+    padding: 35px;
+}
+
+@media (min-width: 576px) {
+    #noice {
+        padding: 20px;
+    }
+}
+
+#noice .jumbotron {
+    border-radius: 50px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.50);
+    max-width: none;
+    margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+    #noice .jumbotron {
+        padding: 20px;
+    }
+}
+
+.container.intro {
+    padding: 20px 0;
+}
+
+#welcome p {
+    margin: 0 auto;
+    font-size: x-large;
+    max-width: none;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+
+#welcome h1 {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #8499a5;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.navbar.navbar-light.navbar-expand-md.fixed-top {
+    padding: 10px;
+    background-color: #afbcbf;
+}
+
+#lol {
+    text-align: center;
+}
+
+a {
+    word-spacing: 2px;
+}
+
+.text-center {
+    padding: 10px;
+}
+
+form {
+    color: grey;
+}
+
+.contact-clean {
+    background-color: #afbcbf;
+}
+
+form {}
+
+.text-center {
+    font-weight: bold;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-link {
+    border-radius: 5px;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 5px;
+    margin: 0 10px 0 0;
+}
+
+p1 {
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.icon.ion-social-twitter:hover {
+    background-color: #c4cccc;
+}
+
+.icon.ion-social-facebook:hover {
+    background-color: #c4cccc;
+}
+
+.fa.fa-reddit:hover {
+    background-color: #c4cccc;
+}
+
+.fa.fa-quora:hover {
+    background-color: #c4cccc;
+}

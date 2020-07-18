@@ -1,0 +1,120 @@
+.brands {
+  color: #313437;
+  background-color: #fff;
+}
+
+.brands a {
+  display: block;
+  text-align: center;
+  padding: 40px 0;
+}
+
+@media (max-width:767px) {
+  .brands a {
+    padding: 30px 0;
+  }
+}
+
+.brands a img {
+  display: inline-block;
+  margin: 10px 20px;
+  vertical-align: middle;
+}
+
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+#p4 {
+  text-align: center;
+  font-size: larger;
+  font-weight: 800;
+  font-family: monospace;
+}
+
+#p5 {
+  text-align: center;
+  font-family: monospace;
+  font-size: larger;
+  font-weight: 800;
+}
+
+.fa.fa-linkedin:hover {
+  background-color: #c4cccc;
+}
+
+.navbar-light .navbar-brand {
+  font-size: x-large;
+  font-weight: 800;
+  font-stretch: expanded;
+}
+
+#p6 {
+  text-align: center;
+  font-size: medium;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.card-link:hover {
+  background-color: #c4cccc;
+  transition: all 2s;
+}
+
+.fa.fa-twitter:hover {
+  background-color: #afbcbf;
+}
+
+p7 {
+  text-align: center;
+  font-weight: 800;
+  font-size: x-large;
+}
+
+#p8 {
+  text-align: center;
+  font-size: medium;
+}
+
+#p7 {
+  text-align: center;
+  font-weight: 800;
+  font-size: medium;
+}
+
+.hwc3 {
+  height: 25%;
+}
+
+.hwc4 {
+  height: 25%;
+}
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+  color: black;
+}
+
+p {
+  color: black;
+  font-size: medium;
+  font-family: monospace;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+.text-left {
+  font-weight: 600;
+  font-size: smaller;
+  text-align: center;
+}
+
