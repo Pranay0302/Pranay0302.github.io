@@ -36,12 +36,58 @@
         </div>
     </nav>
     <div id="noice"></div>
+
     <div class="container text-center intro" id="welcome">
         <div class="jumbotron" style="background-color: #2C3135;">
-            <h1></h1>
-            <p class="text-white"><br><strong>Hello random citizen of our planet earth or any planet, I'm Pranay and I created this website using bootstrap.</strong><br><br><br><strong>This is the website where you can get to know me and can contact me.</strong><br><br><br></p>
+            <h3 si="Myself Pranay.">Typing effect </h3>
+            <p class="text-white"><br><strong>Hello random citizen of our planet earth or any planet, I created this website using bootstrap.</strong><br><br><br><strong>This is the website where you can get to know me and can contact me.</strong><br><br><br></p>
             <p></p>
         </div>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #2C3135;
+            }
+            
+            h3 {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                text-transform: uppercase;
+                font-family: monospace;
+                letter-spacing: 6px;
+                margin: 0;
+                padding: 0;
+                color: transparent;
+            }
+            
+            h3:before {
+                content: attr(si);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                color: white;
+                border-right: 1px solid white;
+                animation: type 5s steps(30) infinite;
+                white-space: nowrap;
+                overflow: hidden;
+            }
+            
+            @keyframes type {
+                0% {
+                    width: 0;
+                }
+                50% {
+                    width: 100%;
+                }
+                100% {
+                    width: 0;
+                }
+            }
+        </style>
+
     </div><img class="rounded-circle shadow-sm" src="assets/img/da.jpg">
     <footer class="text-center">
         <div class="credits">
